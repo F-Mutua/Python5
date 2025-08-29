@@ -1,6 +1,6 @@
 class Animal:
     def move(self):
-        print("Moving...")
+        print("Moving")
 
 class Dog(Animal):
     def move(self):
@@ -17,3 +17,4 @@ class Fish(Animal):
 animals = [Dog(), Bird(), Fish()]
 for a in animals:
     a.move()
+
