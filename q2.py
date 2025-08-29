@@ -18,3 +18,4 @@ animals = [Dog(), Bird(), Fish()]
 for a in animals:
     a.move()
 
+
